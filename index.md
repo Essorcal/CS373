@@ -11,6 +11,7 @@ TEST
 
 <a href="Week1/Week1Writeup.md">Week1 Writeup</a>
 
+[Week 1](Week1/Week1Writeup.md)
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
