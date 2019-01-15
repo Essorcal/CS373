@@ -8,7 +8,8 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 
 TEST
-<a href="Week1/">Week1 Writeup</a>
+
+<a href="Week1/Week1Writeup.md">Week1 Writeup</a>
 
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
