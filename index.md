@@ -1,5 +1,5 @@
-## Caleb Scott - CS373 - Winter 2019
+## Caleb Scott - CS373 - Winter 2019 - Writeups
 
-### Writeups
+### Index
 
 [Week 1 Writeup](Week1/Week1Writeup.md)
