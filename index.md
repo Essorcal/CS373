@@ -1,4 +1,4 @@
-## Caleb Scott - CS373 - Winter 2019 - Writeups
+## Caleb Scott - CS373 - Winter 2019
 
 ### Writeups
 
