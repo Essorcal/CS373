@@ -27,9 +27,11 @@ The final phase, reporting the results while not the most technical is probably 
 This was a very cool part of this weeks content because it's a puzzle using real world malware samples.  I've always learned better when working on problems that have applications so this was right up my alley even though I couldn't quite figure out the whole thing.
 
 To start off I used google translate on my phone to see what the korean files meant.  Luckily they were quite descriptive once translated!
-<img src="image1.png" alt="Fakenet" class="inline"/>
+
+<img src="image1.png" alt="image1" class="inline"/>
 
 From there I decided to run the rootkit to try and figure out what it was doing first.  So I booted up fakenet and process monitor to start diagnosing what the malware was attempting to do. As you can see in the fakenet screenshot it is attempting to call home.
+
 <img src="Fakenet.png" alt="Fakenet" class="inline"/>
 
 The next 2 images show process monitor where it is creating files such as "apphelp.dll" i'm assuming this is somewhere that the rootkit is hiding so it can reinfect a system if other portions are discovered.  I attempted to do static analysis through file insight however I couldn't find anything that stood out about it in strings/hex/etc... 
