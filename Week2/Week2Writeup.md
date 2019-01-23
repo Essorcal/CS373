@@ -2,7 +2,8 @@
 
 ## Forensics
 
-The 10,000 foot overview is to uncover, investigate and solve digital crimes whether they be from terrorists, state actors, commercial espionage, fraud, theft, etc... This image from this weeks lectures is a very succinct summary of what digital forensics is about. \
+The 10,000 foot overview is to uncover, investigate and solve digital crimes whether they be from terrorists, state actors, commercial espionage, fraud, theft, etc... This image from this weeks lectures is a very succinct summary of what digital forensics is about. 
+
 <img src="Forensics.png" alt="Forensics" class="inline"/>
 
 Step one is to gather evidence whether it is:
