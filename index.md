@@ -3,3 +3,4 @@
 ### Index
 
 [Week 1 Writeup](Week1/Week1Writeup.md)
+[Week 2 Writeup](Week2/Week2Writeup.md)
