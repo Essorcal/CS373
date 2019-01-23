@@ -2,11 +2,29 @@
 
 ## Forensics
 
+The 10,000 foot overview is to uncover, investigate and solve digital crimes whether they be from terrorists, state actors, commercial espionage, fraud, theft, etc... This image from this weeks lectures is a very succinct summary of what digital forensics is about. \
+<img src="Forensics.png" alt="Forensics" class="inline"/>
 
+Step one is to gather evidence whether it is:
+- gaining live access to a target machine
+- being given a memory dump
+- gaining access to portable media like a hard drive/USB drive/CD/etc...
+- server logs
+- and others
+
+From there the investigator has to ensure that the evidence is preserved so that their investigation will tamper with the computers/drives in question as little as possible.  Through copies or memory dumps when working with HDDs generally can have very minor effects on the system.  SSDs provide much greater challenges as they have additional memory management firmware built into the drives. The investigation and analysis phase is probably the most technical as the investigator would need to determine:
+- if a crime took place
+- how it was committed
+- was the evidence you gathered used to commit the crime
+- building on the last point, how likely was the suspect to have done it
+
+There are so many different tools out there to perform this which is good as there are so many ways to create malware or commit crimes using computers that hopefully there are ways to detect, analyze and ideally prevent it in the future through antivirus definitions and spreading of knowledge with other security researchers and forensic analysts.
+
+The final phase, reporting the results while not the most technical is probably the most important as the report to either law enforcement, a judge, the board of directors at a compromised company, etc...  Because the majority of the people who need the results from the information have no knowledge or training in digital forensics so thorough, easily digestable explanations, detailed logs and journaling are all very important skills for forensics so others can be confident in your work and lawyers for the defense can't poke holes in your analysis as easily.
 
 ## Challenge
 
-This was a very cool part of this weeks content because it's a puzzle using real world malware samples.  I've always learned better when working on problems that have applications so this was right up my alley even though I couldn't quite figure out the whole thing.\
+This was a very cool part of this weeks content because it's a puzzle using real world malware samples.  I've always learned better when working on problems that have applications so this was right up my alley even though I couldn't quite figure out the whole thing.
 
 To start off I used google translate on my phone to see what the korean files meant.  Luckily they were quite descriptive once translated!\
 <img src="image1.png" alt="Fakenet" class="inline"/>
@@ -14,7 +32,7 @@ To start off I used google translate on my phone to see what the korean files me
 From there I decided to run the rootkit to try and figure out what it was doing first.  So I booted up fakenet and process monitor to start diagnosing what the malware was attempting to do. As you can see in the fakenet screenshot it is attempting to call home.\
 <img src="Fakenet.png" alt="Fakenet" class="inline"/>
 
-The next 2 images show process monitor where it is creating files such as "apphelp.dll" i'm assuming this is somewhere that the rootkit is hiding so it can reinfect a system if other portions are discovered.  I attempted to do static analysis through file insight however I couldn't find anything that stood out about it in strings/hex/etc...\
+The next 2 images show process monitor where it is creating files such as "apphelp.dll" i'm assuming this is somewhere that the rootkit is hiding so it can reinfect a system if other portions are discovered.  I attempted to do static analysis through file insight however I couldn't find anything that stood out about it in strings/hex/etc... \
 
 <img src="Reg1.png" alt="Reg1" class="inline"/>
 
