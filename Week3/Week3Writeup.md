@@ -1,4 +1,4 @@
-# Week 2 - Malware Defense
+# Week 3 - Malware Defense
 
 ## Intro
 
@@ -10,7 +10,7 @@ The next logical step is to lay the groundwork for defending against malware. Lu
 
 The very dense graph below shows the main 4 stages of malware delivery, installation and execution.
 
-<img src="attackGraph.png" alt="Attack Graph" class="inline"/>
+<img src="attackGraph.PNG" alt="Attack Graph" class="inline"/>
 
 ### First Contact
 
