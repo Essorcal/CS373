@@ -45,11 +45,11 @@ The final phase of the attack vector graph is the actual malicious activity.  Ev
 
 While complicated, the attack vector graph is a high level but very thorough look at the steps needed for successfull malware to be interacted with, installed and ran to infect a target machine with a malicious payload.  Ways to mitigate this bring us back to the layered defense strategy which starts with user experience (i.e. don't open suspicious files) and generally progresses to AV software/firewalls.
 
-## Yara
+## YARA
 
 While user experience is the easiest way to defeat a lot of malware it's also nearly impossible to automate and difficult to ensure compliance with.  That brings us to using AV tools that detect malware and either quarantine it and prevent it from running or assist the user in removing from their systems.
 
-So how are these automated systems setup?  Yara is a malware pattern matching software suite specifically designed for examining and creating these rules!  a sample yara rule pulled from the yara documentation at https://yara.readthedocs.io/en/v3.4.0/writingrules.html
+So how are these automated systems setup?  Yara is a malware pattern matching software suite specifically designed for examining and creating these rules!  a sample YARA rule pulled from the YARA documentation at https://yara.readthedocs.io/en/v3.4.0/writingrules.html
 is as follows: 
 
 ```
@@ -65,3 +65,7 @@ rule ExampleRule
 ```
 
 There are 2 main sections to a yara rule, the first section labeled strings: is how to define the patterns that the rule is attempting to match.  This can be actual strings, hexadecimal strings or regular expressions.  The second section defines the logic of the rule from the variables setup in the strings portion.
+
+## Cuckoo
+
+The other new tool that was introduced this week is cuckoo which from their website https://cuckoosandbox.org bills itself as "the leading open source automated malware analysis system."  It has similar functionality to some of the other malware analysis tools that were introduced in weeks 1 and 2.  It just delivers a filterable CSV file of the results of malicious files/API calls/network traffic/memory analysis that is coupled with YARA.
