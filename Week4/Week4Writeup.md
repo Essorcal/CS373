@@ -4,8 +4,6 @@
 
 This week's material was the opposite side of the coin from what we had been focusing on for the first few weeks of the course.  The previous material was more focused on the blue team side of cybersecurity where you are researching and determining the effects of the malware and possible defenses against them.  This week is much more on the red team side where we were actually exploitiing vulernabilities to run code of our choosing in place of the code that was supposed to be run through internet explorer and activex.
 
-## Memory Corruption
-
 ## Zero Day Exploit
 
 Kaspersky labs describes zero day exploits at https://usa.kaspersky.com/resource-center/definitions/zero-day-exploit as "cyber attacks that occur on the same day a weakness is discovered in software." What this means is users/hackers are finding vulernabilities in a given piece of code and either instead of warning the developers of the program the malicious actors exploit the vulnerability for some gain on their part.  Generally they are used to gain program control in order to infect a machine with the payload of their choosing. Additionally zero day exploits can be exploits that hackers find out about when they are discovered by a regular user but they craft and exploit to take advantage of the vulnerability before the developers can address the security flaw with a patch.  These kinds of exploits are extremely dangerous as until the developers are made aware and create a patch for them, anyone running that version of software is at risk.
@@ -23,7 +21,10 @@ Stack buffer overflows or "Stack Smashes" are caused by overfilling the tbe stac
 
 In the specific example above the NOP sled is where a series of non-operations are used to move or slide the memory pointer to the location desired by the hacker in order to facility the exploit.
 
-### 
+
+## Memory Corruption
+
+This week the primary way programs are being exploited through the buffers is actually through memory corruption.  By overflowing or manipulating a stack buffer the hacker is corrupting the memory allocated to the program in order to gain access to either other parts of the system or run code that the original program wasn't planning on running such as en exploit. From the lectures memory corruption can be succintly defined as "Accessing memory in an invalid way which results in an undefined behavior".
 
 
 ### Lab 2
