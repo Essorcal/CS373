@@ -7,3 +7,5 @@
 [Week 2 Writeup](Week2/Week2Writeup.md)
 
 [Week 3 Writeup](Week3/Week3Writeup.md)
+
+[Week 4 Writeup](Week4/Week4Writeup.md)
