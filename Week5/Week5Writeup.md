@@ -21,3 +21,9 @@ The real danger from kernel rootkits is their ability to modify the operating sy
 Symantec defines hooking as https://www.symantec.com/avcenter/reference/windows.rootkit.overview.pdf "whenever an application makes a system call, the execution of that system call follows a predetermined path and a Windows rootkit can hijack the system call at many points along that path."
 
 <img src="hooking.PNG" alt="system" class="inline"/>
+
+The above diagram shows the process where the rootkit is being injected after hooking and replacing a few bytes of code with a jmp call to go to another section of memory where the rest exploit is being stored so it can infect the system with whatever the payload is.
+
+### Tools - Tuluka Kernel Inspector
+
+The new tool introduced this week was the Tuluka Kernel Inspector which can detect hidden processes, drivers, hooks, driver signatures, etc...  Additionally it can display kernel memory and dump the kernel drivers and terminate processes.  It is a very versatile and valuable tool when it comes to analyzing rootkits or other malware that has gotten into the kernel layer to determine what they are doing and how they are doing it.
