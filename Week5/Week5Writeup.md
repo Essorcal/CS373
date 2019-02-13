@@ -20,4 +20,4 @@ The real danger from kernel rootkits is their ability to modify the operating sy
 
 Symantec defines hooking as https://www.symantec.com/avcenter/reference/windows.rootkit.overview.pdf "whenever an application makes a system call, the execution of that system call follows a predetermined path and a Windows rootkit can hijack the system call at many points along that path."
 
-<img src="systemHook.PNG" alt="system" class="inline"/>
+<img src="hooking.PNG" alt="system" class="inline"/>
