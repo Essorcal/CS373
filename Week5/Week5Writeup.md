@@ -6,6 +6,18 @@ This week's material was all about going down into the depths of the bowels of w
 
 ## Kernel
 
+As is shown in the image below is a very simplified diagram of the relationship between the hardware/software/kernel layers of a computer.  As is described on https://en.wikipedia.org/wiki/Kernel_(operating_system) the kernel is the nerve center of the operating system with access and authority to control all levels of the system from memory to I/O to passing instructions to the CPU.  Since it is such a critical part of the system it makes an ideal place for hackers to try and inject malware as it can provide access to any part of a system and potentially be extremely difficult to detect and remove.
+
 <img src="kernel.PNG" alt="kernel" class="inline"/>
 
 ### Rootkits
+
+The malware that is found on the kernel layer is primarily consists of a type of malware called a "rootkit".  As shown in the previous image, kernel rootkits are generally hidden within the kernel in either driver or system files which make them hard to find.
+
+The real danger from kernel rootkits is their ability to modify the operating system by way of adding, changing or modifying code the operating system code through a process called system hooking.
+
+### Hooking
+
+Symantec defines hooking as https://www.symantec.com/avcenter/reference/windows.rootkit.overview.pdf "whenever an application makes a system call, the execution of that system call follows a predetermined path and a Windows rootkit can hijack the system call at many points along that path."
+
+<img src="systemHook.PNG" alt="system" class="inline"/>
