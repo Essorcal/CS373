@@ -37,3 +37,11 @@ Malvertising is another advanced kind of malware where a malicious actor will in
 ### Waterhole attacks
 
 Waterhole attacks are for targeting specific groups of people by compromising somewhere where they will all gather or get information from like a forum or news group, etc...
+
+### Common Defenses
+
+- Domain Reputation Systems
+- Site Certification Services
+- Anti-virus
+- Safe URL Shorteners
+- Customer training
