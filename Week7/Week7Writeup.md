@@ -8,3 +8,32 @@ This week the focus was on web security which is an extremely important subject 
 
 ### Social Engineering
 
+The simplest and potentially most difficult form of web vulnerability isn't even a web vulnerability but a human one.  Manipulating someone in order to get enough information about them to compromise a legitimate account or commit some other kind of fraud.
+
+### Phishing
+
+Using fake emails/websites/etc... to fool a victim into putting their info into a fake site that looks like a real one.  A good example can be shown below with a fake facebook page.
+
+<img src="phish.PNG" alt="robust" class="inline"/>
+
+### SEO Poisoning
+
+SEO Poisoning is a more complicated technique that involves creating fake or malicious sites and seeding them with trending keywords in order to be ranked highly by search engines like google and bing that way when unsuspecting users search for those terms the fake sites are on the front page and more likely to be clicked on.
+
+### Fake updates & Fake AV
+
+Fake updates and fake AV is a scam that has been around for a long time where either through pop ups that look like real system messages or anti-virus messages.
+
+<img src="fakeAV.PNG" alt="robust" class="inline"/>
+
+### WYSIYG
+
+What You See Is What You Get. This uses URL Obfuscation which makes fake URLs look real by using either URL shortening services or alternate letters/numbers like replacing l with I
+
+### Malvertising
+
+Malvertising is another advanced kind of malware where a malicious actor will infiltrate a legitimate ad network with a real ad and once its approved replace it or point it at an ad that contains a malicious payload.
+
+### Waterhole attacks
+
+Waterhole attacks are for targeting specific groups of people by compromising somewhere where they will all gather or get information from like a forum or news group, etc...
