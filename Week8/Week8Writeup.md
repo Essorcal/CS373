@@ -3,7 +3,6 @@
 ## Intro
 
 This week the focus was on primarily email security but in a broader sense it covered messaging security in general such as the classification of spam and phishing emails.  Email security is so important because of how ubiquitious a form of communication it has become with people having multiple email accounts for work and personal use giving potential bad actors many different attack vectors to reach a targeted single person or large groups of people. 
-<img src="fakeAV.PNG" alt="robust" class="inline"/>
 
 ## Spam vs Ham
 
@@ -19,3 +18,18 @@ In the industry ham is considered legitmate email while according to Kaspersky L
 - Bayesian (Statistical): Bayesian statistics is a branch of statistics that uses probabilitiy to determine the likelyhood of a potential outcome that can be updated with new information
 - Fingerprinting/Hashing: Fingerprint is an algorithim that links a large item with short bit string to identify the data.
 
+## Tools
+
+### Linux Tools
+- DIG - Domain information groper – is a unix command for querying DNS servers to identify IP address record and record query routes 
+- WHOIS – Is a database for looking up domain name information, registration and availability
+- Grep, SED, AWK – extremely powerful linux commands used for parsing and manipulating data/files/etc...
+### Open-source databases
+- PostgreSQL – “The world's most advanced open source database”
+- MySQL – “The world's most popular open source database”
+### The Regex Coach
+- Windows tool used for experimenting and testing regular expression creation and functionality.
+### Spamhaus.org
+- Trusted Source of IP reputation data 
+### Trustedsource.org
+- Another source of reputation data with the addition of historical data built off of collected McAfee data
