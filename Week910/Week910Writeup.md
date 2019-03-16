@@ -14,6 +14,22 @@ As shown in the above graph charting the evolution of the cell phone network you
 
 From there the next big leap in mobile networking technology was the inclusion of internet and data which while also brought new security features like encrypted voice and data, additional security hardware like SIM cards and additional encryption, it also allowed the vast majority of the kinds of malware being seen today to be able to be distributed and cause damage/steal information.
 
+## APK Files
+
+Android package files are zipped directories made up of a variety of different kinds of files, some of those include:
+
+- Assets - Where files of all kinds are included by the app for things such as images, fonts, etc... Additionally a common location for malware to insert itself
+- AndroidManifest.xml - location of app metadata and where entrypoints are defined
+- classes.dex - Dalvik Java executable files
+- lib - library files
+
+## Malware
+
+When it comes to android specific malware there are
+- Banking Trojans
+- Bootkits
+- Botnets
+- Worms
 
 ## Tools
 - APKTool - APKTool is a useful tool that can reverse engineer 3rd party binary android applications. It has the ability to decode and rebuild resources as well as analyzing entry points and XML permissions.
