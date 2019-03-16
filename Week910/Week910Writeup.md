@@ -1,4 +1,4 @@
-# Week 9 - Mobile Security
+# Week 9-10 - Mobile Security
 
 ## Intro
 
@@ -25,11 +25,11 @@ Android package files are zipped directories made up of a variety of different k
 
 ## Malware
 
-When it comes to android specific malware there are
-- Banking Trojans
-- Bootkits
-- Botnets
-- Worms
+When it comes to android specific malware a few types of examples are:
+- Banking Trojans - Banking Trojans are malware that specifically target banking information like username and password credentials.  They go about this by generally first attempting to bypass 2 factor authentication.  Banking trojans are complicated multi-step processes as they generally begin with attempting to phish a potential victim into going to a fake banking page in attempt to get the victim to log in and potentially download for a banking application.  Of course the application is infected with malware that can intercept any 2 factor authentication messages from the bank legitmately so when the attackers make withdrawls the victim isn't notified and their phones allow the transactions to process. 
+- Bootkits - Bootkits are pre-installed malware that is extremely difficult to get rid of.  They already have root access so if there are any other pieces of malware on the phone in terms of keyloggers or untrustworthy apps even if the user uninstalls those apps they will be reinstalled by the phone usually on the next reboot cycle.
+- Botnets - Botnets on phones behave similarly to those of infected computers; however, the method of infection is either by getting the user to click on a infected URL or by including the malicious payload in an app that the victim downloads.  Once on the phone they can be controlled remotely to do any number of damaging functions such as being a part of a DDOS attack, recording banking/user data, sending calls/texts in an attempt to infect people in the victims contacts, etc...
+- Worms - Mobile worms are again similar to their PC based cousins in the fact that the ultimate goal is to spread and infect.  While there is generally a secondary payload attached or added later the worm is attempting to get as many other people infected generally through malicious SMS messages or social media messenging apps of a victims entire contact list.  This is ususally done in the background so the victim doesn't have any knowledge that these messages are being sent from their device.
 
 ## Tools
 - APKTool - APKTool is a useful tool that can reverse engineer 3rd party binary android applications. It has the ability to decode and rebuild resources as well as analyzing entry points and XML permissions.
